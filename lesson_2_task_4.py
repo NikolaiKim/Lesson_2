@@ -1,6 +1,6 @@
 def fizz_buzz(n):
    for i in range (1, n):
-       if n % 3 == 0 and i % 5 == 0:
+       if i % 3 == 0 and i % 5 == 0:
             print('FizzBuzz')
        elif i % 3 == 0:
             print('Fizz')
@@ -9,4 +9,4 @@ def fizz_buzz(n):
        else:
             print(i)
 n = 20
-print(fizz_buzz)
+fizz_buzz(n)
